@@ -10,7 +10,22 @@
 | to using a Closure or controller method. Build something great!
 |
 */
+Route::resource('/SignUp', 'SignupController');
+
+Route::resource('/EditInfo', 'EditInfoController');
+
+Route::resource('/History', 'HistoryController');
+
+Route::resource('/ThankYou', 'ThankYouController');
 
 Route::get('/', function () {
-    return view('welcome');
+        return view('welcome');
 });
+
+//Route::get('/', function ()  {
+//   return view('index');
+//});
+
+//Route::get('SignUp', function () {
+//    return view('SignUp');
+//});
