@@ -6,7 +6,7 @@
 <div class="container nopad">
 <div class="row">
 <div class="twelve columns">
-<figure class="u-pull-left"><img alt="NUTS " class="icon" src="assets/images/nuts.png"/></figure>
+<figure class="u-pull-left"><img alt="NUTS " class="icon" src="images/nuts.png"/></figure>
 <p class="iconMar"><i>Nuts ...<span style="display: block;">We Love'm ...</span><span style="display: block;">And Big Money</span><br/><span style="display: block;">And Big Fun &#169;</span></i></p>
 </div>
 </div>

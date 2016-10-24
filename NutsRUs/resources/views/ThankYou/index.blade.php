@@ -1,9 +1,8 @@
-<html>
-<head></head>
-<body>
+@extends('layouts.private')
+@section('content')
     <div class="content">
-        <h1>Thank you message</h1>
-    </div>
-</body>
+        <h1>Thank You!</h1>
 
-</html>
+        <p>We appreciate every order made from our website. We look forwarded to sending out your next order!</p>
+    </div>
+@stop

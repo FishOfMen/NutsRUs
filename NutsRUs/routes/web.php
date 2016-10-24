@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,60 +9,24 @@
 | to using a Closure or controller method. Build something great!
 |
 */
+Route::resource('/SignUp', 'SignUpController');
 
-/*
-//the default route:
+Route::resource('/EditInfo', 'EditInfoController');
+
+Route::resource('/History', 'HistoryController');
+
+Route::resource('/ThankYou', 'ThankYouController');
+
+Route::resource('/AboutLogin', 'AboutLoginController');
+
+Route::resource('/Checkout', 'CheckoutController');
+
+Route::resource('/Order', 'OrderController');
+
 Route::get('/', function () {
-    return view('welcome');
-});
-*/
-
-
-//public index
-Route::get('/', function () {  
-    return view('pages.home');
+    return view('AboutLogin.index');
 });
 
-//private index
-Route::get('home', function()
-{
-    return View::make('pages.home');
+Route::get('/StyleGuide', function(){
+    return view('pages.style-guide');
 });
-
-
-Route::get('history', function()
-{
-    return View::make('pages.history');
-});
-
-
-Route::get('paypal', function()
-{
-    return View::make('pages.paypal');
-});
-
-
-Route::get('sign-up', function()
-{
-    return View::make('pages.sign-up');
-});
-
-
-Route::get('style-guide', function()
-{
-    return View::make('pages.style-guide');
-});
-
-
-Route::get('update', function()
-{
-    return View::make('pages.thanks');
-});
-
-
-Route::get('update', function()
-{
-    return View::make('pages.update');
-});
-
-

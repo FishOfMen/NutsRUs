@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-@include('includes.head')
+@include('includes.header')
 
 </head>
 <body>
 
-@include('include.banner')
+@include('includes.banner')
 
-@include('include.neck')
+@include('includes.neck')
 
 
 <div class="body">
@@ -23,7 +23,7 @@
 </div>
 </div>
 
-@include('include.footer')
+@include('includes.footer')
 
 </body>
 </html>

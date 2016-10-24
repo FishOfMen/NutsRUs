@@ -8,9 +8,9 @@
 </head>
 <body>
 
-@include('include.banner')
+@include('includes.banner')
 
-@include('include.nav')
+@include('includes.nav')
 
 
 <div class="body">
@@ -23,7 +23,7 @@
 </div>
 </div>
 
-@include('include.footer')
+@include('includes.footer')
 
 </body>
 </html>

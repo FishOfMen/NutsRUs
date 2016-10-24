@@ -26,4 +26,3 @@
 </head>
 <body>
 
-<?php include 'templates/banner.html' ?>
