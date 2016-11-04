@@ -7,12 +7,14 @@
  */
 
 namespace App\Http\Controllers;
-
+use DB;
 class OrderController extends Controller {
 
 
     public function index()
     {
+        //$orders = DB::select('select * from users');
+        //return dd($orders);
         return view('Order.index');
     }
 }

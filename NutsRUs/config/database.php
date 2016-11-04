@@ -53,12 +53,32 @@ return [
         ],
 
         'mysql' => [
+
+            /*'read' => [
+                'host' => '192.168.1.1',
+            ],
+            'write' => [
+                'host' => '196.168.1.2'
+            ],*/
+
+            //'driver' => 'mysql',
+            //'host' => env('DB_HOST', 'localhost'),
+            //'port' => env('DB_PORT', '3306'),
+            //'database' => env('DB_DATABASE', 'nutsrus'),
+            //'username' => env('DB_USERNAME', 'root'),
+            //'password' => env('DB_PASSWORD', ''),
+            //'charset' => 'utf8',
+            //'collation' => 'utf8_unicode_ci',
+            //'prefix' => '',
+            //'strict' => true,
+            //'engine' => null,
+
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => 'localhost',
+            'port' => '3306',
+            'database' => 'nutsrus',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',

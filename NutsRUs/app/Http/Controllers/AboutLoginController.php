@@ -7,6 +7,8 @@
  */
 
 namespace App\Http\Controllers;
+use DB;
+use Auth;
 
 class AboutLoginController extends Controller {
 
