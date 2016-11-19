@@ -13,8 +13,8 @@ class OrderController extends Controller {
 
     public function index()
     {
-        //$orders = DB::select('select * from users');
+        $orders = DB::select('select * from items');
         //return dd($orders);
-        return view('Order.index');
+        return view('Order.index', $orders);
     }
 }

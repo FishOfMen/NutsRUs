@@ -1,5 +1,6 @@
 @extends('layouts.private')
 @section('content')
+
     <div class="content">
         <h1>Thank You!</h1>
 

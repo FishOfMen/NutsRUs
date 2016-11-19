@@ -2,7 +2,9 @@
 @section('content')
 <div class="content">
 <h1>Welcome!</h1>
-<form>
+<form role="form" method="post" action="{{ url('/login') }}">
+    {{csrf_field()}}
+    {{--<input name="_token" type="hidden" value="{{csrf_token()}}">--}}
     <div class="row">
     <div class="six columns">
     <fieldset>
@@ -22,24 +24,22 @@
             </div>
         </div>
 
-        <div class="row">
+        {{--<div class="row">
             <div class="six column">
                 <label>Remember me</label>
                     <input type="checkbox" name="remember" id="remember">
             </div>
-        </div>
+        </div>--}}
 
         <div class="center"><input type="submit" value="Login"></div>
     </fieldset>
 
         <br /><br />
-
-    <div class="center">
-        <a href='SignUp' class='button'>Create Account</a>
-    </div>
-
     </div></div>
 </form>
+    <div class="center">
+        <a href='SignUp/create' class='button'>Create Account</a>
+    </div>
 
     <hr />
 
@@ -61,5 +61,5 @@
 <p>
     In this fast-paced world, snacks can serve many needs.  We Serve Yours.
 </p>
-    </div>
+</div>
 @stop

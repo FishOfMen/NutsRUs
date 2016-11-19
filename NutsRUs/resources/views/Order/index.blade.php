@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="six columns"><label name="mac">Macademians</label></div>
+                    <div class="six columns"><label name="mac">Macadamias</label></div>
                     <div class="six columns"><input type="number" id="macCheck" name="macCheck"></div>
                 </div>
 
@@ -45,7 +45,7 @@
 
                 <div class="row">
                     <div class="six columns"><label name="total">Total</label></div>
-                    <div class="six columns"><input type="text" name="totalcalcu" readonly></div>
+                    <div class="six columns"><input type="text" name="totalcalc" readonly></div>
                 </div>
             </fieldset>
             </div></div>

@@ -15,15 +15,26 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'first_name', 'last_name', 'email', 'password',
     ];
+
+    // Set Relationships
+    public function address()
+    {
+        return $this->hasOne('Address');
+    }
+
+    public function order()
+    {
+        return $this->belongsToMany('Order');
+    }
 
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
-    protected $hidden = [
+    /*protected $hidden = [
         'password', 'remember_token',
-    ];
+    ];*/
 }
