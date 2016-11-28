@@ -13,7 +13,9 @@ use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
+use PhpParser\Node\Stmt\Else_;
 
 class AboutLoginController extends Controller {
 
@@ -25,18 +27,55 @@ class AboutLoginController extends Controller {
 
     public function store(Request $request)
     {
-        $creds = $request->all();
-        //unset($creds['_token']);
+        $email = Input::get('email');
+        $password = Input::get('password');
 
-        if (Auth::attempt($creds))
+        if ($this->checkLogin($email, $password))
         {
-            dd('Success!');
-            //return Redirect::intended('AboutLogin');
+            dd($_SESSION);
         }
         else
         {
-            return Redirect::intended('AboutLogin');
+            dd("Things didnt work");
         }
+
+        //$creds = $request->all();
+        //unset($creds['_token']);
+
+        //if (Auth::attempt($creds))
+        //{
+            //dd('Success!');
+            //return Redirect::intended('AboutLogin');
+        //}
+        //else
+        //{
+            //return Redirect::intended('AboutLogin');
+        //}
+    }
+
+    public function checkLogin($email, $password)
+    {
+        $personEmail = $email;
+        $personPassword = $password;
+
+        $query = "SELECT * FROM users WHERE users.email = $personEmail AND users.password = $personPassword";
+
+        if ($personInfo = DB::select($query))
+        {
+            //$personInfo = DB::select('SELECT * FROM users u WHERE u.email = $personEmail AND U.password = $personPassword');
+            session_start();
+            $_SESSION["first_name"] = $personInfo.first_name;
+            $_SESSION["last_name"] = $personInfo.last_name;
+            $_SESSION["email"] = $personInfo.email;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+
+
     }
 
     //public function getLogin()

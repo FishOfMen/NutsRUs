@@ -28,7 +28,8 @@ INSERT INTO `address` (`A_id`, `house_number`, `street`, `city`, `state`, `zip`,
 (2, 3200, 'College Ave', 'Beaver FAlls', 'Pa', 15010, '2016-11-16 20:51:09', '2016-11-16 20:51:09'),
 (3, 3200, 'College Ave', 'Beaver FAlls', 'Pa', 15010, '2016-11-16 20:51:09', '2016-11-16 20:51:09'),
 (5, 123, 'street', 'city', 'state', 12345, '2016-11-17 01:59:23', '2016-11-17 01:59:23'),
-(6, 123, 'street', 'city', 'state', 11111, '2016-11-19 05:16:34', '2016-11-19 05:16:34');
+(6, 123, 'street', 'city', 'state', 11111, '2016-11-19 05:16:34', '2016-11-19 05:16:34'),
+(7, 11, 'adasda', 'dwdad', 'ad', 13211, '2016-11-29 01:11:58', '2016-11-29 01:11:58');
 
 -- --------------------------------------------------------
 
@@ -124,29 +125,24 @@ INSERT INTO `orders` (`O_id`, `U_id`, `A_id`, `D_id`, `shipping_status`, `total`
 --
 
 CREATE TABLE `users` (
-  `U_id` int(11) NOT NULL,
-  `last_name` varchar(255) DEFAULT NULL,
-  `first_name` varchar(255) DEFAULT NULL,
-  `A_id` int(11) DEFAULT NULL,
-  `permissions` int(11) DEFAULT NULL,
-  `phone` int(10) DEFAULT NULL,
-  `email` varchar(255) DEFAULT NULL,
-  `password` varchar(255) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `remember_token` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`U_id`, `last_name`, `first_name`, `A_id`, `permissions`, `phone`, `email`, `password`, `created_at`, `updated_at`, `remember_token`) VALUES
-(1, 'Fisher', 'Zack', 1, 2, NULL, 'zack.fisher@geneva.edu', 'Admin', '2016-11-09 20:16:42', '0000-00-00 00:00:00', ''),
-(2, 'Wehr', 'Evan', 2, 2, NULL, 'enwehr@gmail.com', 'Admin', '2016-11-09 20:16:42', '0000-00-00 00:00:00', ''),
-(3, 'Gilleland', 'Will', 3, 2, NULL, 'willgilleland95@gmail.com', 'Admin', '2016-11-09 20:16:42', '0000-00-00 00:00:00', ''),
-(7, 'test', 'test', 5, NULL, NULL, 'test@test.test', 'testing', '2016-11-16 21:01:18', '2016-11-17 01:59:23', NULL),
-(8, 'SSmith', 'John', NULL, NULL, NULL, 'John@test.net', 'test', '2016-11-19 05:16:34', '2016-11-19 05:16:34', NULL);
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Zack Fisher', 'Zack.fisher@geneva.edu', '$2y$10$FpsOqg7aOrpIx4y85te72O71UPf2S17ma834TogPqGjW4ZX6U5pUy', 'igNNGMPM55rCo6arfPxnNKsYVIfXDWyHx9xGMtX4w6eyUclA1Kk3Pqq4cQrc', '2016-11-29 00:22:12', '2016-11-29 01:27:39'),
+(3, 'Joe Shmo', 'joe@test.test', '$2y$10$Z2qBnS/lep5eVpz9xJAD3enZl9heAbZqoCVDFx9pcr0HAX2uQTrRu', 'sUK7SgiGiEai7imCDdKJ4WUNqOkrb8pF3VBn8OnUQ0RZlJt6f6cXKRaRkMBi', '2016-11-29 01:22:27', '2016-11-29 01:23:11'),
+(4, 'John Smith', 'John@test.net', '$2y$10$HG/dmhwsyEGegiyb9nQgd.eD/OUXRblz00UgF.WnWWCl/t4FUicEa', 'YOqNtQlDXErovTlRcHW3IgLr8ltUAimX1OzXJFknro9ihpWaJK2eyxORsCHx', '2016-11-29 01:24:22', '2016-11-29 01:25:25'),
+(5, 'Jane doe', 'jane@test.test', '$2y$10$Q53PeGqAlqbPHf0Xsk78jOWtHA7gz0vOUYuWlboGxJMNFWfDWg3h.', NULL, '2016-11-29 01:30:20', '2016-11-29 01:30:20');
 
 --
 -- Indexes for dumped tables
@@ -186,8 +182,8 @@ ALTER TABLE `orders`
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`U_id`),
-  ADD UNIQUE KEY `U_id` (`U_id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `users_email_unique` (`email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -197,7 +193,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `address`
 --
 ALTER TABLE `address`
-  MODIFY `A_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `A_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `batch`
 --
@@ -222,7 +218,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `U_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

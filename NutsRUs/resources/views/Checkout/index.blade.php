@@ -1,4 +1,4 @@
-@extends('Layouts.private')
+@extends('Layouts.public')
 @section('content')
     <div class="content">
         <h1>Checkout</h1><br />

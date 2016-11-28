@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/AboutLoginController.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/CheckoutController.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Controller.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HomeController.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/ThankYouController.php" dialect="MySQL" />
+  </component>
+</project>
