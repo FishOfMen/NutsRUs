@@ -4,6 +4,8 @@ use Illuminate\Http\Request;
 use App\User;
 Use App\Address;
 
+use Auth;
+
 class SignUpController extends Controller {
 
 
@@ -17,26 +19,30 @@ class SignUpController extends Controller {
         return view('SignUp.create');
     }
 
-    public function store(Request $request)
+    public  function address()
     {
+        return view('SignUp.address');
 
-        //user info
+    }
 
-        $input = $request->all();
+    protected $redirectTo = '/AboutLogin';
 
-        $user = new User($input);
+    protected function shipping(Request $request)
+    {
+        $data = $request->all();
 
-        $user->save();
+        $id = Auth::id();
 
-        $address = new Address($input);
+        $address = [
+            'U_id' => $id,
+            'house_number' => $data['house_number'],
+            'street' => $data['street'],
+            'city' => $data['city'],
+            'state' => $data['state'],
+            'zip' => $data['zip']];
 
-        $address->save();
+        Address::create($address);
 
-        return redirect('/ThankYou');
-
-
-        //dd($request->all());
-        //$input = array($first_name, $last_name, $email, $phone, $password, $updated_at, $created_at);
-        //dd($input);
+        return redirect('/AboutLogin');
     }
 }

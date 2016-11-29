@@ -8,7 +8,7 @@ class Address extends Model
 {
     protected $table = 'address';
 
-    protected $fillable = array('house_number', 'street', 'city', 'state', 'zip');
+    protected $fillable = array('U_id', 'house_number', 'street', 'city', 'state', 'zip');
 
     // Set Relationships
     public function user()

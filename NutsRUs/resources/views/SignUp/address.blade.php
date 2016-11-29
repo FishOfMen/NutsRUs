@@ -1,10 +1,12 @@
 @extends('Layouts.public')
 @section('content')
     <div class="content">
-        <h3>Sign Up</h3>
-        <form method="post" action="{{ url('/register') }}">
+        <h3>Next Step!</h3>
+        <p>We just need some other information to complete registration.</p>
+        <form method="POST" action="{{ url('/SignUp/shipping') }}">
             {{ csrf_field() }}
             <div class="row">
+                <fieldset>
                     <legend>Shipping Information</legend>
 
                     <div class="row">

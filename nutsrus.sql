@@ -10,6 +10,7 @@
 
 CREATE TABLE `address` (
   `A_id` int(11) NOT NULL,
+  `U_id` int(11) NOT NULL,
   `house_number` int(11) DEFAULT NULL,
   `street` varchar(255) DEFAULT NULL,
   `city` varchar(255) DEFAULT NULL,
@@ -23,13 +24,9 @@ CREATE TABLE `address` (
 -- Dumping data for table `address`
 --
 
-INSERT INTO `address` (`A_id`, `house_number`, `street`, `city`, `state`, `zip`, `updated_at`, `created_at`) VALUES
-(1, 917, 'Monroe Court', 'Apollo', 'Pa', 15613, '2016-11-16 20:51:09', '2016-11-16 20:51:09'),
-(2, 3200, 'College Ave', 'Beaver FAlls', 'Pa', 15010, '2016-11-16 20:51:09', '2016-11-16 20:51:09'),
-(3, 3200, 'College Ave', 'Beaver FAlls', 'Pa', 15010, '2016-11-16 20:51:09', '2016-11-16 20:51:09'),
-(5, 123, 'street', 'city', 'state', 12345, '2016-11-17 01:59:23', '2016-11-17 01:59:23'),
-(6, 123, 'street', 'city', 'state', 11111, '2016-11-19 05:16:34', '2016-11-19 05:16:34'),
-(7, 11, 'adasda', 'dwdad', 'ad', 13211, '2016-11-29 01:11:58', '2016-11-29 01:11:58');
+INSERT INTO `address` (`A_id`, `U_id`, `house_number`, `street`, `city`, `state`, `zip`, `updated_at`, `created_at`) VALUES
+(1, 1, 917, 'Monroe Court', 'Apollo', 'Pa', 15613, '2016-11-29 23:17:27', '2016-11-16 20:51:09'),
+(11, 16, 123, 'testing', 'testing', 'testing', 12345, '2016-11-29 23:19:14', '2016-11-29 23:19:14');
 
 -- --------------------------------------------------------
 
@@ -139,10 +136,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Zack Fisher', 'Zack.fisher@geneva.edu', '$2y$10$FpsOqg7aOrpIx4y85te72O71UPf2S17ma834TogPqGjW4ZX6U5pUy', 'igNNGMPM55rCo6arfPxnNKsYVIfXDWyHx9xGMtX4w6eyUclA1Kk3Pqq4cQrc', '2016-11-29 00:22:12', '2016-11-29 01:27:39'),
-(3, 'Joe Shmo', 'joe@test.test', '$2y$10$Z2qBnS/lep5eVpz9xJAD3enZl9heAbZqoCVDFx9pcr0HAX2uQTrRu', 'sUK7SgiGiEai7imCDdKJ4WUNqOkrb8pF3VBn8OnUQ0RZlJt6f6cXKRaRkMBi', '2016-11-29 01:22:27', '2016-11-29 01:23:11'),
-(4, 'John Smith', 'John@test.net', '$2y$10$HG/dmhwsyEGegiyb9nQgd.eD/OUXRblz00UgF.WnWWCl/t4FUicEa', 'YOqNtQlDXErovTlRcHW3IgLr8ltUAimX1OzXJFknro9ihpWaJK2eyxORsCHx', '2016-11-29 01:24:22', '2016-11-29 01:25:25'),
-(5, 'Jane doe', 'jane@test.test', '$2y$10$Q53PeGqAlqbPHf0Xsk78jOWtHA7gz0vOUYuWlboGxJMNFWfDWg3h.', NULL, '2016-11-29 01:30:20', '2016-11-29 01:30:20');
+(1, 'Zachary Fisher', 'Zack.fisher@geneva.edu', '$2y$10$FpsOqg7aOrpIx4y85te72O71UPf2S17ma834TogPqGjW4ZX6U5pUy', 'yNlbjluVSmZFsaWUu4zuTVbJkBzjJVjHNKCRDTqRVAsYvGKa9vDTipKAAtAG', '2016-11-29 00:22:12', '2016-11-29 23:18:37'),
+(16, 'testing', 'test@test.test', '$2y$10$LXiir8D9MJuOA..4X6rrRuAMwrANeQQblvqxhmPCYyvA/nvycagLe', NULL, '2016-11-29 23:18:55', '2016-11-29 23:18:55');
 
 --
 -- Indexes for dumped tables
@@ -193,7 +188,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `address`
 --
 ALTER TABLE `address`
-  MODIFY `A_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `A_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `batch`
 --
@@ -218,7 +213,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

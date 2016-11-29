@@ -9,7 +9,7 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-Route::resource('/SignUp', 'SignUpController');
+//Route::resource('/SignUp', 'SignUpController');
 
 Route::resource('/EditInfo', 'EditInfoController');
 
@@ -42,3 +42,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+//Shipping Information Stuff
+Route::get('/SignUp/address', 'SignUpController@address');
+Route::post('/SignUp/shipping', 'SignUpController@shipping');
+Route::get('SignUp/create', 'SignUpController@create');
+
+//Edit Info
+Route::post('/EditInfo/update', 'EditInfoController@update');
