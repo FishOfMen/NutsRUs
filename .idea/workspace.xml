@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0e1fb0-3e7e-4899-a2a4-2b27d7ddb1d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Address.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Auth/RegisterController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/EditInfo/index.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/EditInfo/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/address.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/address.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/Checkout/index.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/Checkout/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/Order/index.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/Order/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/includes/footer.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/includes/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/includes/header.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/includes/header.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/routes/web.php" afterPath="$PROJECT_DIR$/NutsRUs/routes/web.php" />
     </list>
@@ -67,25 +69,13 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Auth/RegisterController.php">
+            <file leaf-file-name="HistoryController.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="901">
-                    <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+                  <state relative-caret-position="459">
+                    <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
                     <folding>
-                      <element signature="e#45#58#0#PHP" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="EditInfoController.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="808">
-                    <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
-                    <folding>
-                      <element signature="e#39#52#0#PHP" expanded="true" />
+                      <element signature="e#39#53#0#PHP" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -102,21 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/EditInfo/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NutsRUs/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+            <state relative-caret-position="617">
+              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="47" selection-end-column="55" />
               <folding>
                 <element signature="e#6#385#0#PHP" expanded="true" />
               </folding>
@@ -124,11 +104,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="public.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="34">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/banner.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="6" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="24" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -137,18 +170,8 @@
       <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="address.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/SignUp/address.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="66" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="66" />
+            <state relative-caret-position="0">
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -157,10 +180,22 @@
       <file leaf-file-name="SignUpController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="41" column="35" selection-start-line="35" selection-start-column="8" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="702">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="e#38#66#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditInfoController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="74" column="70" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="70" />
+              <folding>
+                <element signature="e#39#52#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,10 +210,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/header.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/layouts/private.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/banner.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/footer.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/CheckoutController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/.env" />
         <option value="$PROJECT_DIR$/NutsRUs/config/database.php" />
@@ -187,25 +219,29 @@
         <option value="$PROJECT_DIR$/NutsRUs/app/Item.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Batch.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Date.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/AboutLoginController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/User.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/nav.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/Checkout/index.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/Order/index.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/ThankYou/index.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/address.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Address.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/routes/web.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/EditInfo/index.blade.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/Order/index.blade.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/routes/web.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/Checkout/index.blade.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/header.blade.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/banner.blade.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/footer.blade.php" />
       </list>
     </option>
   </component>
@@ -217,9 +253,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
-    <option name="width" value="1294" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -309,6 +346,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ea0e1fb0-3e7e-4899-a2a4-2b27d7ddb1d1" name="Default" comment="" />
@@ -324,20 +364,20 @@
       <workItem from="1478719242300" duration="13828000" />
       <workItem from="1479168567127" duration="9734000" />
       <workItem from="1479495231544" duration="7743000" />
-      <workItem from="1480358401604" duration="27557000" />
+      <workItem from="1480358401604" duration="42752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81382000" />
+    <option name="totallyTimeSpent" value="96577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1546875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -389,27 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/neck.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/pages/style-guide.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/CheckoutController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -514,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -552,52 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <marker date="1479586278318" expanded="true" signature="239:258" ph="select * fro... items" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/banner.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="127" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="127" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/Checkout/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/Order/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -634,14 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="107" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -671,40 +633,6 @@
         <state relative-caret-position="425">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="33" column="86" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/SignUp/address.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
-          <folding>
-            <element signature="e#6#385#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,20 +669,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/EditInfo/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="442">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php">
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/SignUp/address.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="41" column="35" selection-start-line="35" selection-start-column="8" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="47" selection-end-column="55" />
           <folding>
-            <element signature="e#38#66#0#PHP" expanded="true" />
+            <element signature="e#6#385#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/Order/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/Checkout/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="245" column="34" selection-start-line="245" selection-start-column="34" selection-end-line="245" selection-end-column="34" />
+          <folding>
+            <element signature="e#122#129#0#PHP" expanded="true" />
+            <marker date="1480450379742" expanded="true" signature="367:386" ph="select * fro... items" />
           </folding>
         </state>
       </provider>
@@ -764,26 +727,113 @@
         <state relative-caret-position="901">
           <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
+            <element signature="e#45#58#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/EditInfo/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        <state relative-caret-position="51">
+          <caret line="9" column="107" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="107" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="e#38#66#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+        <state relative-caret-position="634">
+          <caret line="74" column="70" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="70" />
           <folding>
             <element signature="e#39#52#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#39#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="24" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/includes/banner.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

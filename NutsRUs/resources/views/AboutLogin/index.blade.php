@@ -1,4 +1,4 @@
-@extends('Layouts.public')
+@extends('layouts.public')
 @section('content')
 <div class="content">
 <h1>Welcome!</h1>

@@ -1,4 +1,4 @@
-@extends('Layouts.public')
+@extends("layouts.public")
 @section('content')
 <div class="content">
     <h3>Sign Up</h3>

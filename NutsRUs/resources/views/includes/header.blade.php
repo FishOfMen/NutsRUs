@@ -18,11 +18,9 @@
 <link href="http://www.geneva.edu/_files/css/colorbox.css" rel="stylesheet"/>
 <script src="http://www.geneva.edu/_files/js/jquery.colorbox-min.js" type="text/javascript">
 </script>
-<!--cutom styling-->
+<!--custom styling-->
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <script src="js/script-includes.js" type="text/javascript">
 </script>
 <title>Nuts R US</title>
 </head>
-<body>
-

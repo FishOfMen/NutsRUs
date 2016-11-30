@@ -2,53 +2,28 @@
 @section('content')
     <div class="content">
         <h1>Order</h1>
-        <form>
+        <form action="{{ url('/Order/post') }}" method="POST">
+            {{ csrf_field() }}
             <div class="row">
-            <div class="six columns">
-            <fieldset><legend>Oder Information</legend>
-                <div class="row">
-                    <div class="six columns"><label name="item">Item</label></div>
-                    <div class="six columns"><label name="Units">Units</label></div>
-                </div>
+                <div class="six columns">
+                    <fieldset><legend>Oder Information</legend>
+                        <div class="row"><label>Enter desired unit for each item:</label></div>
+                        <div class="row"><label name="peanut">Peanuts<input type="int" class="form-control" id="peanutCheck" name="PeaC" value="0" required></label></div>
 
-                <div class="row">
-                    <div class="six columns"><label name="peanut">Peanuts</label></div>
-                    <div class="six columns"><input type="number" id="peanutCheck" name="peanutCheck"></div>
-                </div>
+                        <div class="row"><label name="almond">Almonds<input type="int" id="almondCheck" name="AlmC" value="0" required></label></div>
 
-                <div class="row">
-                    <div class="six columns"><label name="almond">Almonds</label></div>
-                    <div class="six columns"><input type="number" id="almondCheck" name="almondCheck"></div>
-                </div>
+                        <div class="row"><label name="cas">Cashews<input type="int" id="CasCheck" name="CasC" value="0" required></label></div>
 
-                <div class="row">
-                    <div class="six columns"><label name="mac">Macadamias</label></div>
-                    <div class="six columns"><input type="number" id="macCheck" name="macCheck"></div>
-                </div>
+                        <div class="row"><label name="mac">Macadamias<input type="int" id="macCheck" name="MacC" value="0" required></label></div>
 
-                <div class="row">
-                    <div class="six columns"><label name="walnut">Walnuts</label></div>
-                    <div class="six columns"><input type="number" id="walnutCheck" name="walnutCheck"></div>
-                </div>
+                        <div class="row"><label name="walnut">Walnuts<input type="int" id="walnutCheck" name="WalC" value="0" required></label></div>
 
-                <div class="row">
-                    <div class="six columns"><label name="driedrasp">Dried Raspberries</label></div>
-                    <div class="six columns"><input type="number" id="raspCheck" name="raspCheck"></div>
-                </div>
+                        <div class="row"><label name="driedrasp">Dried Raspberries<input type="int" id="raspCheck" name="DriRasC" value="0" required></label></div>
 
-                <div class="row">
-                    <div class="six columns"><label name="mnm">M&M's</label></div>
-                    <div class="six columns"><input type="number" id="mnmCheck" name="mnmCheck"></div>
-                </div>
+                        <div class="row"><label name="mnm">M&M's<input type="int" id="mnmCheck" name="MnMC" value="0" required></label></div>
 
-                <hr />
-
-                <div class="row">
-                    <div class="six columns"><label name="total">Total</label></div>
-                    <div class="six columns"><input type="text" name="totalcalc" readonly></div>
-                </div>
-            </fieldset>
-            </div></div>
+                    </fieldset>
+                </div></div>
 
             <div class="row">
                 <div class="six column"><input type="submit" value="Proceed to Checkout"></div>

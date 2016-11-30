@@ -49,3 +49,6 @@ Route::get('SignUp/create', 'SignUpController@create');
 
 //Edit Info
 Route::post('/EditInfo/update', 'EditInfoController@update');
+
+//Oder post
+Route::post('/Order/post', 'OrderController@postOrder');

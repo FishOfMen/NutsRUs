@@ -5,6 +5,7 @@ use App\User;
 use  App\Address;
 use Auth;
 use Illuminate\http\Request;
+use Illuminate\Support\Facades\Session;
 
 class EditInfoController extends Controller {
 
@@ -71,7 +72,9 @@ class EditInfoController extends Controller {
             ->update(['name' => $data['name'],
             'email' => $data['email']]);
 
-        return redirect('EditInfo');
+        Session::flash('success', 'Information updated successfully');
+
+        return redirect('/AboutLogin');
 
         //return dd($address);
     }
