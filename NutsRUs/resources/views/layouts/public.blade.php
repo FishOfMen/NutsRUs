@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!-- Made referencing https://scotch.io/tutorials/simple-laravel-layouts-using-blade-->
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25,7 +24,7 @@
     <script src="js/script-includes.js" type="text/javascript">
     </script>
     <title>Nuts R US</title>
-{{--@include('includes.header')--}}
+    {{--@include('includes.header')--}}
 
 </head>
 <body>
@@ -33,48 +32,63 @@
 <div>
     <div class="bannerContainer">
         <div class="banner">
-            <div class="center"><a href="/index.php"> <img alt="Nuts R US Logo" class="bannerImage" src="/images/transparent_text_effect.png"/></a> <br/>
+            <div class="center"><a href="/AboutLogin"> <img alt="Nuts R US Logo" class="bannerImage" src="/images/transparent_text_effect.png"/></a> <br/>
                 <p><i>R NUTS R CLEAN</i></p>
             </div>
         </div>
     </div>
 </div>
 {{--@include('includes.banner')--}}
-<nav>
-    <div class="dropdown-menu-right">
-        @if (Auth::guest())
-            <a class="button" href="{{ url('/SignUp/create') }}">Register</a>
-        @else
-            <div>
-                <a href="#" class="button" role="button" >
-                    {{ Auth::user()->name }} <span class="caret"></span>
-                </a>
+<div>
+    <div class="navContainer nopadtopbot">
+        <div class="nav"><img alt="Menu" class="mobileIcon" src="/images/mobile_menu_icon.png"/>
+            <div class="box">
+                <div class="boxHead">
+                    <h3>Menu</h3>
+                </div>
+                @if (Auth::guest())
 
-                <a href="{{ url('/EditInfo') }}" class="button" role="button" >Edit Info</a>
+                    <ul class="optionBox-menu">
+                        <li class="optionBox-menu-title" ><a href="{{ url('/SignUp/create') }}" style="color: white;" ><span class="menu-title">Register</span></a>
+                        </li>
+                    </ul>
 
-                <a href="{{ url('/Order') }}" class="button" role="button" >Order</a>
+                @else
+                    <span style ="height: 15px; color: white; font-size: 16px; padding-left: 7px;">Hello, {{ Auth::user()->name }}
+</span>
+                    <ul class="optionBox-menu">
+                        <li class="optionBox-menu-title" ><a href="{{ url('/EditInfo') }}" style="color: white;" ><span class="menu-title">Edit Info</span></a>
+                        </li>
+                    </ul>
+                    <ul class="optionBox-menu">
+                        <li class="optionBox-menu-title" ><a href="{{ url('/Order') }}" style="color: white;" ><span class="menu-title">Order</span></a>
+                        </li>
+                    </ul>
+                    <ul class="optionBox-menu">
+                        <li class="optionBox-menu-title" ><a href="{{ url('/History') }}" style="color: white;" ><span class="menu-title">History</span></a>
+                        </li>
+                    </ul>
+                    <ul class="optionBox-menu">
+                        <li class="optionBox-menu-title" ><a href="{{ url('/logout') }}" onclick="event.preventDefault();  document.getElementById('logout-form').submit();" style="color: white;" ><span class="menu-title">Logout</span></a>
 
-                <a class="button" href="{{ url('/logout') }}"
-                   onclick="event.preventDefault();
-                                         document.getElementById('logout-form').submit();">
-                    Logout
-                </a>
-
-                <form id="logout-form" action="{{ url('/logout') }}" method="POST">
-                    {{ csrf_field() }}
-                </form>
+                            <form id="logout-form" action="{{ url('/logout') }}" method="POST">
+                                {{ csrf_field() }}
+                            </form>
+                        </li>
+                    </ul>
+                @endif
             </div>
-        @endif
+        </div>
     </div>
-</nav>
-<div class="body">
-<div class="container">
-
-<!-- main body -->
-@yield('content')
-<!-- end main body -->
-
 </div>
+<div class="body">
+    <div class="container">
+
+        <!-- main body -->
+    @yield('content')
+    <!-- end main body -->
+
+    </div>
 </div>
 
 @include('includes.footer')

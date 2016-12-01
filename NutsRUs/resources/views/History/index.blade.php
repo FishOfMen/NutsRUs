@@ -2,29 +2,15 @@
 @section('content')
 <div class="content">
     <div>
-        <h2>Current Orders</h2>
-        <p><strong>This is just an example!! change code in order to create history dynamically!!</strong></p>
-
-        <div class="optionBox"><span class="optionBox-title">November 1, 2016</span><span class="optionBox-arrow">
-        <img alt="Expand" border="0" height="17" id="droparrow" name="droparrow" src="include/_assets/drop.gif" width="24" /></span></div>
+        <h2>Order History</h2>
+        @foreach($orders as $order)
+        <div class="optionBox"><span class="optionBox-title">{{ $order['updated_at'] }}</span><span class="optionBox-arrow"></span></div>
             <div class="hidContent">
-
-                <p>Information for this oeder would be populated here.</p>
-
+                <p>Intended Address: {{ $house }} {{ $street }} {{ $city }} {{ $state }} {{ $zip }} </p>
+                <p> Status: {{ $order['shipping_status'] }}</p>
             </div>
+        @endforeach
 
-    </div>
-    <hr />
-    <div>
-        <h2>Previous Orders</h2>
-
-        <div class="optionBox"><span class="optionBox-title">October 1, 2016</span><span class="optionBox-arrow">
-        <img alt="Expand" border="0" height="17" id="droparrow" name="droparrow" src="include/_assets/drop.gif" width="24" /></span></div>
-        <div class="hidContent">
-
-            <p>Information for this oeder would be populated here.</p>
-
-        </div>
     </div>
 </div>
 @stop

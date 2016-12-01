@@ -52,3 +52,5 @@ Route::post('/EditInfo/update', 'EditInfoController@update');
 
 //Oder post
 Route::post('/Order/post', 'OrderController@postOrder');
+
+Route::get('/History', 'HistoryController@index');
