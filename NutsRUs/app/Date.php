@@ -12,6 +12,6 @@ class Date extends Model
 
     public function order()
     {
-        return $this->belongsTo('Oder');
+        return $this->belongsTo('Order');
     }
 }

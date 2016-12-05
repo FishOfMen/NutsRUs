@@ -154,7 +154,7 @@ class OrderController extends Controller {
             'U_id' => $U_id,
             'A_id' => $A_id,
             //'D_id' => $now,
-            'D_id' => 0,
+            //'D_id' => 0,
             'shipping_status' => 'Not Shipped',
             'total' => $total
         ];

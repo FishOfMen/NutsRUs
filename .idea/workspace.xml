@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea0e1fb0-3e7e-4899-a2a4-2b27d7ddb1d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/SignUp/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php" afterPath="$PROJECT_DIR$/NutsRUs/resources/views/layouts/public.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/routes/web.php" afterPath="$PROJECT_DIR$/NutsRUs/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Date.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" afterPath="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" />
     </list>
     <ignored path="NutsRUs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +41,7 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NutsRUs/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state relative-caret-position="782">
               <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
               <folding>
                 <element signature="e#6#385#0#PHP" expanded="true" />
@@ -58,7 +53,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
+            <state relative-caret-position="1394">
               <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
               <folding />
             </state>
@@ -87,7 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistoryController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+              <folding>
+                <marker date="1480979859262" expanded="true" signature="367:386" ph="select * fro... items" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
@@ -95,6 +102,16 @@
               <folding>
                 <element signature="e#39#53#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Date.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NutsRUs/app/Date.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +133,6 @@
         <option value="$PROJECT_DIR$/NutsRUs/app/Order.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Item.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Batch.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/app/Date.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/AboutLoginController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/User.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Auth/LoginController.php" />
@@ -129,7 +145,6 @@
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/EditInfo/index.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/Order/index.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/Checkout/index.blade.php" />
-        <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/EditInfoController.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/header.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/includes/banner.blade.php" />
@@ -140,6 +155,8 @@
         <option value="$PROJECT_DIR$/NutsRUs/routes/web.php" />
         <option value="$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php" />
         <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/app/Date.php" />
+        <option value="$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php" />
       </list>
     </option>
   </component>
@@ -151,9 +168,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="3193" />
-    <option name="width" value="1294" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -263,15 +281,16 @@
       <workItem from="1479495231544" duration="7743000" />
       <workItem from="1480358401604" duration="51904000" />
       <workItem from="1480529275466" duration="18213000" />
+      <workItem from="1480979004510" duration="891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123942000" />
+    <option name="totallyTimeSpent" value="124833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3193" y="0" width="1294" height="1047" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1546875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -408,14 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1428">
@@ -464,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,17 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="245" column="34" selection-start-line="245" selection-start-column="34" selection-end-line="245" selection-end-column="34" />
-          <folding>
-            <element signature="e#122#129#0#PHP" expanded="false" />
-            <marker date="1480470900354" expanded="true" signature="367:386" ph="select * fro... items" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -597,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="24" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="6" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,13 +631,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/AboutLogin/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
+        <state relative-caret-position="1394">
           <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
           <folding />
         </state>
@@ -649,20 +644,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NutsRUs/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
+        <state relative-caret-position="782">
           <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
           <folding>
             <element signature="e#6#385#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="39" />
-          <folding>
-            <element signature="e#38#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,6 +666,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#39#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -693,20 +702,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/resources/views/History/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/SignUpController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="711">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="e#38#66#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/HistoryController.php">
+    <entry file="file://$PROJECT_DIR$/NutsRUs/app/Http/Controllers/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="358">
+          <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
           <folding>
-            <element signature="e#39#53#0#PHP" expanded="true" />
+            <marker date="1480979859262" expanded="true" signature="367:386" ph="select * fro... items" />
           </folding>
         </state>
       </provider>
